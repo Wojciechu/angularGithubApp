@@ -1,0 +1,16 @@
+{
+  "name": "wojciechu",
+  "version": "1.0.0",
+  "description": "Before you use this app please run following commands:\r - npm install",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
