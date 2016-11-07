@@ -3,10 +3,15 @@
 <head>
 	<title>AngularGithubApp</title>
 	<script type="text/javascript" src="/node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="/node_modules/restangular/dist/restangular.js"></script>
 	<script type="text/javascript" src="app.js"></script>
 </head>
 <body ng-controller="MainController">
 	{{simpleText}} is here!
+
+	<div ng-repeat="repo in repos">
+		<li>{{repo.name | orderBy:'full_name'}}</li>
+	</div>
 
 </body>
 </html>
